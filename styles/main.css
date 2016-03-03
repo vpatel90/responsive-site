@@ -74,5 +74,29 @@ main.main1 {
         border-bottom-right-radius: 25% 50%;
         border-top-left-radius: 25% 50%;
         border-top-right-radius: 25% 50%; }
+    main.main1 section div.blue {
+      background-color: #2C4985; }
+    main.main1 section div.black {
+      background-color: #111111; }
+
+main.main2 {
+  padding: 35px; }
+  main.main2 p:first-child {
+    letter-spacing: 3px;
+    font-size: 20px;
+    margin: 20px 0; }
+  main.main2 p:last-child {
+    color: #4D5B62;
+    font-size: 15px;
+    line-height: 24px; }
+
+footer {
+  padding: 30px;
+  background-color: black;
+  text-align: center; }
+  footer p {
+    color: #888888; }
+    footer p a {
+      color: white; }
 
 /*# sourceMappingURL=main.css.map */

@@ -95,5 +95,37 @@ main.main1 {
         border-top-right-radius: 25%50%;
       }
     }
+    div.blue{
+      background-color: #2C4985;
+    }
+    div.black{
+      background-color: #111111;
+    }
+  }
+}
+
+main.main2 {
+  padding: 35px;
+  p:first-child {
+    letter-spacing: 3px;
+    font-size: 20px;
+    margin: 20px 0;
+  }
+  p:last-child {
+    color: #4D5B62;
+    font-size: 15px;
+    line-height: 24px;
+  }
+}
+
+footer {
+  padding: 30px;
+  background-color: black;
+  text-align: center;
+  p {
+    color: #888888;
+    a {
+      color: white;
+    }
   }
 }
