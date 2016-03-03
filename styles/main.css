@@ -1,17 +1,22 @@
 body {
   font-family: sans-serif; }
 
-nav a {
-  text-decoration: none;
-  color: #909090; }
-nav ul {
-  padding-left: 23px; }
-  nav ul li {
-    display: inline-block; }
-  nav ul li:first-child a {
-    color: #535A61; }
-  nav ul li:nth-child(3) {
-    color: #060606; }
+nav {
+  min-width: 478px; }
+  nav a {
+    text-decoration: none;
+    color: #909090; }
+  nav ul {
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    padding-left: 23px; }
+    nav ul li {
+      display: inline-block;
+      margin-right: 31px; }
+    nav ul li:first-child a {
+      color: #535A61; }
+    nav ul li:nth-child(3) a {
+      color: #060606; }
 
 header {
   background: url(../images/background.png);
