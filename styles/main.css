@@ -1,5 +1,7 @@
 body {
   font-family: sans-serif; }
+  body p {
+    margin: 0; }
 
 nav {
   min-width: 478px; }
@@ -33,7 +35,21 @@ main.main1 {
   padding: 25px 10px; }
   main.main1 section {
     background-color: #a6a6a6;
-    height: 10em;
+    border: 1px solid #E2E2E2;
+    height: 20em;
     margin: 17px auto; }
+    main.main1 section div:first-child {
+      background-color: #519251;
+      padding: 2em 0; }
+      main.main1 section div:first-child p {
+        text-align: center;
+        color: white; }
+      main.main1 section div:first-child p:first-child {
+        letter-spacing: 2px; }
+      main.main1 section div:first-child p:nth-child(2) {
+        font-size: 6em; }
+      main.main1 section div:first-child p:last-child {
+        font-size: 17px;
+        opacity: 0.5; }
 
 /*# sourceMappingURL=main.css.map */

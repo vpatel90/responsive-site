@@ -1,5 +1,8 @@
 body {
   font-family: sans-serif;
+  p {
+    margin: 0;
+  }
 }
 nav {
   min-width: 478px;
@@ -41,7 +44,29 @@ main.main1 {
   padding: 25px 10px;
   section {
     background-color: lighten(grey, 15%);
-    height: 10em;
+    border: 1px solid #E2E2E2;
+    height: 20em;
     margin: 17px auto;
+    div:first-child {
+      background-color: #519251;
+      padding: 2em 0;
+      p {
+        text-align: center;
+        color: white;
+      }
+      p:first-child {
+        letter-spacing: 2px;
+      }
+      p:nth-child(2) {
+        font-size: 6em;
+      }
+      p:last-child {
+        font-size: 17px;
+        opacity: 0.5;
+      }
+    }
+    ul {
+      
+    }
   }
 }
