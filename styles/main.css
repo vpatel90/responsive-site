@@ -1,3 +1,6 @@
+body {
+  font-family: sans-serif; }
+
 nav a {
   text-decoration: none;
   color: #909090; }
@@ -9,5 +12,15 @@ nav ul {
     color: #535A61; }
   nav ul li:nth-child(3) {
     color: #060606; }
+
+header {
+  background: url(../images/background.png);
+  padding: 65px 0; }
+  header p {
+    margin: 5px auto;
+    font-size: 2em;
+    text-align: center;
+    color: white;
+    width: 300px; }
 
 /*# sourceMappingURL=main.css.map */
