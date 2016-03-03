@@ -88,7 +88,8 @@ main.main2 {
   main.main2 p:last-child {
     color: #4D5B62;
     font-size: 15px;
-    line-height: 24px; }
+    line-height: 24px;
+    margin-bottom: 35px; }
 
 footer {
   padding: 30px;
@@ -98,5 +99,38 @@ footer {
     color: #888888; }
     footer p a {
       color: white; }
+
+@media (min-width: 479px) {
+  header {
+    padding: 150px 0; } }
+@media (min-width: 767px) {
+  main.main1 {
+    text-align: center; }
+    main.main1 section {
+      display: inline-block;
+      width: 240px;
+      margin: auto 2px; }
+
+  main.main2 {
+    width: 767px;
+    margin: 0 auto; }
+    main.main2 section {
+      display: inline-block;
+      vertical-align: top;
+      min-height: 250px;
+      width: 300px;
+      margin: auto 35px;
+      padding-left: 10px; }
+
+  footer {
+    clear: both; } }
+@media (min-width: 979px) {
+  main.main1 section {
+    width: 311px; }
+
+  main.main2 {
+    width: 980px; }
+    main.main2 section {
+      width: 400px; } }
 
 /*# sourceMappingURL=main.css.map */
