@@ -32,7 +32,8 @@ nav {
 }
 
 header {
-  background: url(../images/background.png);
+  background: url(../images/background.png) no-repeat;
+  background-position: -224px -100px;
   padding: 65px 0;
   p {
     margin: 5px auto;
@@ -136,6 +137,10 @@ footer {
 @media (min-width: 479px) {
   header {
     padding: 150px 0;
+    p {
+      font-size: 3em;
+      width: 600px;
+    }
   }
 }
 
