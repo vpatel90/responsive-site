@@ -2,6 +2,9 @@ body {
   font-family: sans-serif; }
   body p {
     margin: 0; }
+  body ul {
+    margin: 0;
+    padding: 0; }
 
 nav {
   min-width: 478px; }
@@ -31,12 +34,9 @@ header {
     width: 300px; }
 
 main.main1 {
-  background-color: silver;
   padding: 25px 10px; }
   main.main1 section {
-    background-color: #a6a6a6;
     border: 1px solid #E2E2E2;
-    height: 20em;
     margin: 17px auto; }
     main.main1 section div:first-child {
       background-color: #519251;
@@ -51,5 +51,28 @@ main.main1 {
       main.main1 section div:first-child p:last-child {
         font-size: 17px;
         opacity: 0.5; }
+    main.main1 section ul {
+      list-style-type: none;
+      text-align: center; }
+      main.main1 section ul li {
+        background-color: #F7F7F7;
+        color: #6E7A7F;
+        padding: 16px 0;
+        border: 1px solid #E2E2E2; }
+    main.main1 section div:last-child {
+      text-align: center;
+      padding: 25px 0; }
+      main.main1 section div:last-child a {
+        display: inline-block;
+        width: 94px;
+        text-decoration: none;
+        font-weight: bold;
+        color: black;
+        padding: 10px 0;
+        border: 1px solid #E2E2E2;
+        border-bottom-left-radius: 25% 50%;
+        border-bottom-right-radius: 25% 50%;
+        border-top-left-radius: 25% 50%;
+        border-top-right-radius: 25% 50%; }
 
 /*# sourceMappingURL=main.css.map */
