@@ -28,4 +28,12 @@ header {
     color: white;
     width: 300px; }
 
+main.main1 {
+  background-color: silver;
+  padding: 25px 10px; }
+  main.main1 section {
+    background-color: #a6a6a6;
+    height: 10em;
+    margin: 17px auto; }
+
 /*# sourceMappingURL=main.css.map */

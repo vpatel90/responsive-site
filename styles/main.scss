@@ -35,3 +35,13 @@ header {
     width: 300px;
   }
 }
+
+main.main1 {
+  background-color: lighten(grey, 25%);
+  padding: 25px 10px;
+  section {
+    background-color: lighten(grey, 15%);
+    height: 10em;
+    margin: 17px auto;
+  }
+}
