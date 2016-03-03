@@ -1,0 +1,13 @@
+nav a {
+  text-decoration: none;
+  color: #909090; }
+nav ul {
+  padding-left: 23px; }
+  nav ul li {
+    display: inline-block; }
+  nav ul li:first-child a {
+    color: #535A61; }
+  nav ul li:nth-child(3) {
+    color: #060606; }
+
+/*# sourceMappingURL=main.css.map */

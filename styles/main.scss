@@ -1,0 +1,20 @@
+nav {
+
+
+  a {
+    text-decoration: none;
+    color: #909090;
+  }
+  ul {
+    padding-left: 23px;
+    li {
+      display: inline-block;
+    }
+    li:first-child a {
+      color: #535A61;
+    }
+    li:nth-child(3) {
+      color: #060606;
+    }
+  }
+}
