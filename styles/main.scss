@@ -64,6 +64,7 @@ main.main1 {
     margin: 17px auto;
     div.prices {
       background-color: #519251;
+      border-bottom: 1px solid #E2E2E2;
       padding: 2em 0;
       p {
         text-align: center;
@@ -87,7 +88,7 @@ main.main1 {
         background-color: #F7F7F7;
         color: #6E7A7F;
         padding: 16px 0;
-        border: 1px solid #E2E2E2;
+        border-bottom: 1px solid #E2E2E2;
       }
     }
     div:last-child {
