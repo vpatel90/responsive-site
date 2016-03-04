@@ -75,6 +75,9 @@ main.main1 {
         border-bottom-right-radius: 25% 50%;
         border-top-left-radius: 25% 50%;
         border-top-right-radius: 25% 50%; }
+        main.main1 section div:last-child a:hover {
+          background-color: #cdcdcd;
+          background-image: linear-gradient(to bottom, #cdcdcd, #b3b3b3); }
     main.main1 section div.blue {
       background-color: #2C4985; }
     main.main1 section div.black {

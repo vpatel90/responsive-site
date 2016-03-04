@@ -82,6 +82,10 @@ main.main1 {
       text-align: center;
       padding: 25px 0;
       a {
+        &:hover {
+           background-color: #cdcdcd;
+           background-image: linear-gradient(to bottom, #cdcdcd, #b3b3b3);
+        }
         display: inline-block;
         width: 94px;
         text-decoration: none;
