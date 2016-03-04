@@ -20,7 +20,7 @@ nav {
       margin-right: 31px; }
     nav ul li:first-child a {
       color: #535A61; }
-    nav ul li:nth-child(3) a {
+    nav ul li a.this-page {
       color: #060606; }
 
 header {
@@ -34,22 +34,32 @@ header {
     color: white;
     width: 300px; }
 
+header.contact-header {
+  background: none;
+  background-color: #2E4A83;
+  padding: 100px 0; }
+  header.contact-header p {
+    letter-spacing: 3px;
+    margin: auto;
+    font-size: 1.5em;
+    width: 85%; }
+
 main.main1 {
   padding: 25px 10px; }
   main.main1 section {
     border: 1px solid #E2E2E2;
     margin: 17px auto; }
-    main.main1 section div:first-child {
+    main.main1 section div.prices {
       background-color: #519251;
       padding: 2em 0; }
-      main.main1 section div:first-child p {
+      main.main1 section div.prices p {
         text-align: center;
         color: white; }
-      main.main1 section div:first-child p:first-child {
+      main.main1 section div.prices p:first-child {
         letter-spacing: 2px; }
-      main.main1 section div:first-child p:nth-child(2) {
+      main.main1 section div.prices p:nth-child(2) {
         font-size: 6em; }
-      main.main1 section div:first-child p:last-child {
+      main.main1 section div.prices p:last-child {
         font-size: 17px;
         opacity: 0.5; }
     main.main1 section ul {
@@ -78,10 +88,54 @@ main.main1 {
         main.main1 section div:last-child a:hover {
           background-color: #cdcdcd;
           background-image: linear-gradient(to bottom, #cdcdcd, #b3b3b3); }
-    main.main1 section div.blue {
+    main.main1 section div#blue {
       background-color: #2C4985; }
-    main.main1 section div.black {
+    main.main1 section div#black {
       background-color: #111111; }
+
+div #main1 {
+  padding: 25px 10px; }
+  div #main1 section {
+    border: none;
+    margin: none; }
+    div #main1 section div p {
+      display: block;
+      width: 90%;
+      margin: 10px auto;
+      font-size: 13px;
+      font-weight: bold; }
+    div #main1 section textarea {
+      display: block;
+      width: 90%;
+      height: 1.5em;
+      resize: none;
+      border: 1px solid #DCDCDC;
+      margin: auto;
+      margin-bottom: 25px; }
+    div #main1 section div:nth-child(3) textarea {
+      height: 6em;
+      resize: vertical; }
+    div #main1 section div:last-child {
+      text-align: left;
+      width: 90%;
+      margin: auto;
+      margin-bottom: 10px; }
+      div #main1 section div:last-child a {
+        text-align: center;
+        display: inline-block;
+        width: 90px;
+        text-decoration: none;
+        font-weight: bold;
+        color: #454545;
+        padding: 10px 0;
+        border: 1px solid #E2E2E2;
+        border-bottom-left-radius: 25% 50%;
+        border-bottom-right-radius: 25% 50%;
+        border-top-left-radius: 25% 50%;
+        border-top-right-radius: 25% 50%; }
+        div #main1 section div:last-child a:hover {
+          background-color: #cdcdcd;
+          background-image: linear-gradient(to bottom, #cdcdcd, #b3b3b3); }
 
 main.main2 {
   padding: 35px; }
@@ -91,6 +145,18 @@ main.main2 {
     margin: 20px 0; }
   main.main2 p:last-child {
     color: #4D5B62;
+    font-size: 15px;
+    line-height: 24px;
+    margin-bottom: 35px; }
+
+div #main2 {
+  padding: 35px;
+  padding-top: 15px;
+  border-top: 1px solid #DCDCDC; }
+  div #main2 p:first-child {
+    margin: 20px 0;
+    font-weight: bold; }
+  div #main2 p:last-child {
     font-size: 15px;
     line-height: 24px;
     margin-bottom: 35px; }
@@ -109,19 +175,24 @@ footer {
     padding: 150px 0; }
     header p {
       font-size: 3em;
-      width: 600px; } }
+      width: 600px; }
+
+  .main-cover main {
+    display: inline-block;
+    width: 40%;
+    vertical-align: top; } }
 @media (min-width: 767px) {
-  main.main1 {
+  main#pricing-page1 {
     text-align: center; }
-    main.main1 section {
+    main#pricing-page1 section {
       display: inline-block;
       width: 240px;
       margin: auto 2px; }
 
-  main.main2 {
+  main#pricing-page2 {
     width: 767px;
     margin: 0 auto; }
-    main.main2 section {
+    main#pricing-page2 section {
       display: inline-block;
       vertical-align: top;
       min-height: 250px;
@@ -129,15 +200,19 @@ footer {
       margin: auto 35px;
       padding-left: 10px; }
 
+  .main-cover {
+    width: 767px;
+    margin: auto; }
+
   footer {
     clear: both; } }
 @media (min-width: 979px) {
-  main.main1 section {
+  main#pricing-page1 section {
     width: 311px; }
 
-  main.main2 {
+  main#pricing-page2 {
     width: 980px; }
-    main.main2 section {
+    main#pricing-page2 section {
       width: 400px; } }
 
 /*# sourceMappingURL=main.css.map */
